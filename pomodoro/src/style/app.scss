@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+#app {
+  height: 100vh;
+  background: #304030;
+  overflow: hidden;
+}
+.left-navbar {
+  top: 0px;
+  left: 0px;
+  width: 80px;
+  height: 100vh;
+  background: #E8E8E8 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: fixed;
+  z-index: 99999999999999999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.b-sidebar-header {
+  display: none !important;
+}
+.list-outer {
+  padding-top: 80px;
+}
+.text-outer {
+  padding-top: 30px;
+}
+.btns {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 300ms ease-out;
+}
+.btns:hover {
+  background: white;
+}
+#sidebar-1,
+#sidebar-2 {
+  padding-left: 80px;
+  background-color: #304030 !important;
+  font-weight: 600;
+}
+.text-color {
+  color: #e8e8e8;
+}
+.b-sidebar-body {
+  padding: 0 50px;
+}
+.opacity-50 {
+  opacity: 50%;
+}
+.b-sidebar-header {
+  height: 80px;
+}
+.form-control {
+  border:none;
+  border-radius: 40px;
+  height: 55px;
+  margin-top: 20px;
+  padding-left: 25px;
+  position: relative;
+  font-weight: 600;
+}
+.form-control:focus {
+  border:none;
+  outline: none;
+  box-shadow: none;
+}
+.submit {
+  background: #F08448;
+  border: none;
+  position: absolute;
+  right: 60px;
+  top: 185px;
+  padding: 5px 8px;
+}
+.submit:active,
+.submit:hover {
+  background:#F07448 !important;
+  border: none;
+  box-shadow: none;
+}
+.submit:focus {
+  background:#F08448 !important;
+  border: none;
+  box-shadow: none;
+}
+.btn .b-icon.bi {
+  font-size: 200%;
+  vertical-align: middle;
+  border: none;
+}
+.btn .b-icon.bi:active {
+  border: 0;
+}
+.row-content {
+  margin-left: 80px;
+  width: 100vw;
+  transition: all 300ms ease-in-out 0s;
+}
+.vh-50 {
+  height: 50vh;
+}
+.bgtomato {
+  max-width:none;
+  width:auto;
+  img {
+    width: 1200px;
+    // margin-right: 110px;
+    transition: all 300ms ease-in-out 0s;
+  }
+}
+
+.time {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 200px;
+  color: #e8e8e8;
+}
+.time-btn {
+  background: transparent;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #E8E8E8;
+  padding: 0;
+}
+.time-btn img {
+  vertical-align: bottom;
+}
+.mute {
+
+}
+.playStop {
+  width: 65px;
+  height: 65px;
+  background: #e8e8e8;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.playStop:hover,
+.playStop:focus,
+.playStop:active {
+  background: #e8e8e8;
+  background-color: #e8e8e8 !important;
+}
+.delete {
+
+}

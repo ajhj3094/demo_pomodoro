@@ -1,0 +1,17 @@
+{
+  "item": {
+    "name": "123",
+    "edit": false,
+    "model": "123",
+    "state": true
+  },
+  "index": 0,
+  "field": {
+    "key": "name",
+    "label": "名稱"
+  },
+  "unformatted": "123",
+  "value": "123",
+  "detailsShowing": false,
+  "rowSelected": false
+}
