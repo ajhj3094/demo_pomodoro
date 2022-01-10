@@ -1,11 +1,11 @@
 <template lang="pug">
 #app
-  .left-navbar
+  #left-navbar
     .btns(v-b-toggle.sidebar-1 @click='fold1' :style='{background: bgColor1}')
       img(src='./assets/icon/icon-list.svg')
     .btns(v-b-toggle.sidebar-2 @click='fold2' :style='{background: bgColor2}')
       img(src='./assets/icon/icon-analysis.svg')
-  div
+  div#sidebar-list
     b-sidebar#sidebar-1(shadow width='50%' v-model='visible1')
       .text-color.d-flex.align-items-center.justify-content-center.list-outer
         h1.mr-auto.text-center.my-auto 待辦清單
@@ -15,11 +15,11 @@
         b-form-input(v-model='text' placeholder='新增待辦事項' maxlength="20")
         b-button.submit(pill)
           b-icon-plus.plus
-  div
+  div#sidebar-analysis
     b-sidebar#sidebar-2(shadow width='50%' v-model='visible2')
       .px-3.py-2
         p Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-  b-row.row-content.position-relative(:style='{marginLeft: whilefold}')
+  b-row#row-content.position-relative(:style='{marginLeft: whilefold}')
     b-col.vh-50.d-flex.align-items-center.justify-content-center.flex-column(cols='6')
       h1.time 25:00
       div.mt-3
